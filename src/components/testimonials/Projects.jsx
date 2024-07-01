@@ -5,17 +5,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import './testimonials.css'
+import './projects.css'
 import {Data} from "../testimonials/Data.jsx"
 
 
-const Testimonials = () => {
+const Projects = () => {
   return <>
-    <section className="testimonials container section">
+    <section className="projects container section" id="projects">
         <h2 className="section__title">Projects</h2>
         <span className="section__subtitle">My Projects </span>
         
-        <Swiper className="testimonials__container"
+        <Swiper className="projects__container"
              loop={true}
              spaceBetween={24}
              grabCursor={true}
@@ -36,11 +36,11 @@ const Testimonials = () => {
 
             {Data.map(({id, image, title, description}) =>{
                 return(
-                    <SwiperSlide className='testimonials__card' key={id}>
-                        <img src={image} alt="" className='testimonials__img'/>
+                    <SwiperSlide className='projects__card' key={id}>
+                        <img src={image} alt="" className='projects__img'/>
 
-                        <h3 className="testimonials__name">{title}</h3>
-                        <p className="testimonials__description">{description}</p>
+                        <h3 className="projects__name">{title}</h3>
+                        <p className="projects__description">{description}</p>
                     </SwiperSlide>
                 )
             })}
@@ -49,4 +49,4 @@ const Testimonials = () => {
   </>
 }
 
-export default Testimonials  
+export default Projects

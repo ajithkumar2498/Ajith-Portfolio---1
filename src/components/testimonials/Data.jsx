@@ -22,4 +22,10 @@ export  const Data = [
         title: "Basic CRUD App",
         description:"Recipe management web app using Mern full stack "
     },
+    {
+        id:4,
+        image:image3,
+        title: "Basic CRUD App",
+        description:"Recipe management web app using Mern full stack "
+    }
 ]
