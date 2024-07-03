@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import './projects.css'
-import {Data} from "../testimonials/Data.jsx"
+import {Data} from "./Data.jsx"
 
 
 const Projects = () => {
@@ -34,11 +34,12 @@ const Projects = () => {
              modules={[Pagination]}
              >
 
-            {Data.map(({id, image, title, description}) =>{
+            {Data.map(({id, image, title, description, deploy, github}) =>{
                 return(
                     <SwiperSlide className='projects__card' key={id}>
                         <img src={image} alt="" className='projects__img'/>
-
+                         <a href={deploy} className="project__button button--flex">Deploy <i className="uil uil-angle-right project__button-icon"></i> </a>
+                         <a href={github} className="project__button button--flex">Github <i className='bx bxl-github project__button-icon'></i> </a>
                         <h3 className="projects__name">{title}</h3>
                         <p className="projects__description">{description}</p>
                     </SwiperSlide>
