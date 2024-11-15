@@ -7,7 +7,7 @@ import Info from "./Info.jsx"
 
 const About = () => {
   return <>
-    <section className="about" id="about">
+    <section className="about theme-controller" id="about">
            <h2 className="section__title">ABout Me</h2>
            <span className="section__subtitle">My Introduction</span>   
            

@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Variable Css */
 
@@ -14,6 +17,7 @@
   --text-color:hsl(var(--hue),var(--sat),46%);
   --body-color:hsl(var(--hue),var(--sat),98%);
   --container-color: #fff;
+  --container-color1: #da0e77;
 
   /* Font & typography */
 
