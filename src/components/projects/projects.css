@@ -1,5 +1,7 @@
 .projects__container{
-    width:750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .projects__card{

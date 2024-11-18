@@ -40,7 +40,7 @@ const Qualification = () => {
                  }>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title"> Full Stack Developer</h3>
+                            <h3 className="qualification__title"> <b>Certification :</b> <br /> Full Stack Developer</h3>
                                 <span className="qualification__subtitle">Guvi GeeK Pvt Ltd</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
