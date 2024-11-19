@@ -1,7 +1,9 @@
 .projects__container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns:auto auto;
+    column-gap: 2rem;
+    grid-template-rows: max-content;
+
 }
 
 .projects__card{
@@ -13,7 +15,7 @@
 }
 
 .projects__img{
-    width: 300px;
+    width:fit-content;
     border-radius: .2rem;
     margin-bottom: var(--mb-1);
 }
@@ -22,12 +24,16 @@
     display: inline-block;
     background-color: var(--title-color);
     color:var(--container-color);
-    padding: .5rem 1rem;
+    padding: .5rem 3rem;
     border-radius: .7rem;
     font-weight: var(--font-medium);
     margin: 0 1rem 0 1rem;
 }
-
+.projects_button{
+    display: flex;
+    flex-direction: row;
+    max-width: max-content;
+}
 .project__button-icon{
    font-size: var(--normal-font-size);
    padding-left: .2rem;
@@ -66,7 +72,13 @@
    .projects__container{
     width: initial;
    }
-
+   .project__button{
+    padding: .3rem 2rem;
+    margin:.1rem;
+}
+   .projects_button{
+    column-gap: 5px;
+   }
    .projects__card{
     padding: 1.25rem 1.5rem;
    }
@@ -78,20 +90,35 @@
         padding: .3rem .8rem;
         margin:.1rem;
     }
+    .projects__container{
+        grid-template-columns: auto auto;
+    }
+  }
+
+  @media screen and (max-width:617px) {
+    .projects__container{
+        grid-template-columns: auto;
+    }
   }
   
   @media screen and (max-width:576px) {
     .projects__img{
-        width: 400px;
+        width: fit-content;
     }
     .project__button{
-        margin: 1rem 0rem 1rem 4.5rem;
+        margin: 1rem 0rem 1rem 1rem;
+    }
+    .projects__container{
+        grid-template-columns: auto;
     }
   }
 
   @media screen and (max-width:440px) {
     .project__button{
         margin: 1rem 0rem 1rem 3rem;
+    }
+    .projects__container{
+        grid-template-columns: auto;
     }
   }
   

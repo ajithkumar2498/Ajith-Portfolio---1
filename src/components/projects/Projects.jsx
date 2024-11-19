@@ -21,8 +21,10 @@ const Projects = () => {
                 return(
                     <div className='projects__card' key={id}>
                         <img src={image} alt="" className='projects__img'/>
-                         <a href={deploy} className="project__button button--flex" target='blank'>Deploy <i className="uil uil-angle-right project__button-icon"></i> </a>
-                         <a href={github} className="project__button button--flex" target='blank'>Github <i className='bx bxl-github project__button-icon'></i> </a>
+                            <div className='projects_button'>
+                            <a href={deploy} className="project__button button--flex" target='blank'>Deploy <i className="uil uil-angle-right project__button-icon"></i> </a>
+                            <a href={github} className="project__button button--flex" target='blank'>Github <i className='bx bxl-github project__button-icon'></i> </a>
+                            </div>
                         <h3 className="projects__name">{title}</h3>
                         <p className="projects__description">{description}</p>
                     </div>
