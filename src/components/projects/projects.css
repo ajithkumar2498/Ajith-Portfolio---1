@@ -1,8 +1,14 @@
 .projects__container{
-    display: grid;
+    /* display: grid;
     grid-template-columns:auto auto;
     column-gap: 2rem;
-    grid-template-rows: max-content;
+    grid-template-rows: max-content; */
+    display: flex;
+    max-width: 1020px;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    gap: 2px;
+    justify-content: space-between;
 
 }
 
@@ -15,7 +21,7 @@
 }
 
 .projects__img{
-    width:fit-content;
+    width:380px;
     border-radius: .2rem;
     margin-bottom: var(--mb-1);
 }

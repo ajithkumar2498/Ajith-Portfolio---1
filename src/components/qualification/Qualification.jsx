@@ -32,26 +32,20 @@ const Qualification = () => {
                  qualification__icon"></i> 
                  Experience
             </div>
+            <div className={toggleState === 3 ? "qualification__button qualification__active button---flex" : 
+            "qualification__button button---flex"}
+            onClick={()=> toggleTab(3)}
+            >
+                <i className="uil uil-briefcase-alt
+                 qualification__icon"></i> 
+                 Certifications
+            </div>
         </div>
 
         <div className="qualification__sections">
                  <div className={toggleState === 1 ? "qualification__content qualification__content-active" :
                     "qualification__content"
                  }>
-                    <div className="qualification__data">
-                        <div>
-                            <h3 className="qualification__title"> <b>Certification :</b> <br /> Full Stack Developer</h3>
-                                <span className="qualification__subtitle">Guvi GeeK Pvt Ltd</span>
-                                <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i>
-                                    2023 - 2024
-                                </div>
-                        </div>
-                                <div>
-                                    <span className="qualification__rounder"></span>
-                                    <span className="qualification__line"></span>
-                                </div>
-                    </div> 
 
                     <div className="qualification__data">
                         <div></div>
@@ -159,6 +153,46 @@ const Qualification = () => {
                     </div> 
 
                  </div>
+
+                 <div className={toggleState === 3 ? "qualification__content qualification__content-active" :
+                    "qualification__content"
+                 }>
+                   <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title"> <b>Certification :</b> <br /> Full Stack Developer</h3>
+                                    <span className="qualification__subtitle">Guvi GeeK Pvt Ltd</span>
+                                    <div className="qualification__calendar">
+                                        <i className="uil uil-calendar-alt"></i>
+                                        2023 - 2024
+                                    </div>
+                            </div>
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                    </div> 
+
+                    <div className="qualification__data">
+                        <div></div>
+
+                        <div>
+                           <span className="qualification__rounder"></span>
+                           <span className="qualification__line"></span>
+                        </div>
+
+                        <div>
+                            <h3 className="qualification__title"> <b>Certification :</b> <br />Python</h3>
+                                <span className="qualification__subtitle">Neo Orange Technologies</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    2019
+                                </div>
+                        </div>
+                    </div>
+
+
+
+                 </div>
             </div>
       </div>
       </section>
@@ -166,3 +200,4 @@ const Qualification = () => {
 }
 
 export default Qualification
+
