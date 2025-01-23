@@ -2,6 +2,7 @@ import image1 from "../../assets/RecipeApp.png"
 import image2 from "../../assets/E-Commerce.png"
 import image3 from "../../assets/Task-Tracker-Application.png"
 import image4 from "../../assets/Basic CRUD APP.png"
+import image5 from "../../assets/Blog.jpeg"
 
 
 export  const Data = [
@@ -31,10 +32,10 @@ export  const Data = [
     },
     {
         id:4,
-        image:image4,
-        title: "Basic CRUD App",
-        description:"Basic CRUD Application ",
-        deploy:"https://mock-api-crud-app-task.netlify.app/home",
-        github:"https://github.com/ajithkumar2498/Task_tracker.git"
+        image:image5,
+        title: "BLog App",
+        description:"Blog Application ",
+        deploy:"https://newbloggify.netlify.app/",
+        github:"https://github.com/ajithkumar2498/BlogApp-frontend.git"
     },
 ]

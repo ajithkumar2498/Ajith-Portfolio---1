@@ -7,7 +7,7 @@
     max-width: 1020px;
     flex-wrap: wrap;
     flex-shrink: inherit;
-    gap: 2px;
+    gap: 0px;
     justify-content: space-between;
 
 }
