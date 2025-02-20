@@ -1,6 +1,6 @@
 import image1 from "../../assets/RecipeApp.png"
 import image2 from "../../assets/E-Commerce.png"
-import image3 from "../../assets/Task-Tracker-Application.png"
+import image3 from "../../assets/Task Manager.jpg"
 import image4 from "../../assets/Basic CRUD APP.png"
 import image5 from "../../assets/Blog.jpeg"
 
@@ -27,8 +27,8 @@ export  const Data = [
         image:image3,
         title: "Task Manager App",
         description:"Task Management web app using Mern full stack ",
-        deploy:"https://my-task-tracker-react-app.netlify.app/home",
-        github:"https://github.com/ajithkumar2498/Task_tracker.git"
+        deploy:"https://aktaskmanager.netlify.app/login",
+        github:"https://github.com/ajithkumar2498/MERN-Task-manager-front-end.git"
     },
     {
         id:4,
