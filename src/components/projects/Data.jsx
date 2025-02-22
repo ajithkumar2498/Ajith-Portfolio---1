@@ -33,7 +33,7 @@ export  const Data = [
     {
         id:4,
         image:image5,
-        title: "BLog App",
+        title: "Blog App",
         description:"Blog Application ",
         deploy:"https://newbloggify.netlify.app/",
         github:"https://github.com/ajithkumar2498/BlogApp-frontend.git"
