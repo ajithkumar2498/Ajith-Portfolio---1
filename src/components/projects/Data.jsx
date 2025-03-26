@@ -10,7 +10,7 @@ export  const Data = [
         id:1,
         image:image1,
         title: "Recipe App",
-        description:"Recipe management web app using Mern full stack ",
+        description:"Recipe management app using MERN stack with React, Redux, Tailwind, Express, MongoDB, JWT auth, and Cloudinary. Deployed on netlify, Render, and MongoDB Atlas.",
         deploy:"https://recipies-zone.netlify.app/",
         github:"https://github.com/ajithkumar2498/Recipe-app-front-end.git"
     },
@@ -18,7 +18,7 @@ export  const Data = [
         id:2,
         image:image2,
         title: "E-Commerce App",
-        description:"Full Stack E-commerce Web App ",
+        description:"Full Stack E-commerce app using MERN stack with React, Redux, Tailwind, Express, MongoDB, JWT auth, Stripe for payments, and Cloudinary for images. Deployed on Netlify, Render, and MongoDB Atlas",
         deploy:"https://ak-cart-ecommerce.netlify.app/",
         github:"https://github.com/ajithkumar2498/E-Com_App_Front-End.git"
     },
@@ -26,7 +26,7 @@ export  const Data = [
         id:3,
         image:image3,
         title: "Task Manager App",
-        description:"Task Management web app using Mern full stack ",
+        description:"Task management app using MERN stack with React, Redux, Tailwind, Express, MongoDB, JWT auth, firebase. Deployed on Netlify, Render, and MongoDB Atlas.",
         deploy:"https://aktaskmanager.netlify.app/login",
         github:"https://github.com/ajithkumar2498/MERN-Task-manager-front-end.git"
     },
@@ -34,7 +34,7 @@ export  const Data = [
         id:4,
         image:image5,
         title: "Blog App",
-        description:"Blog Application ",
+        description:"Blog app using MERN stack with Clerk for auth, and deployed on Netlify, Render, and MongoDB Atlas. 🚀 ",
         deploy:"https://newbloggify.netlify.app/",
         github:"https://github.com/ajithkumar2498/BlogApp-frontend.git"
     },
