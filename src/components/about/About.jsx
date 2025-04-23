@@ -20,7 +20,7 @@ const About = () => {
                    I am a Skilled, Enthusiastic and dedicated Junior MERN Full Stack Developer with a strong foundation in web development technologies. Eager to leverage skills in MongoDB, Express.js, React, and Node.js to contribute to dynamic projects and gain hands-on experience in building responsive and user-friendly web applications.
                    </p>
 
-                   <a href="https://drive.google.com/file/d/1mzn9aRe2qrNJojgIgEDcfYsI2I5nbB-e/view?usp=sharing" target="_blank" className="button button--flex">Download CV
+                   <a href="https://drive.google.com/file/d/1GtdU6twU9rfIAZndegq32vWgOj5F-kIU/view?usp=sharing" target="_blank" className="button button--flex">Download CV
                             <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
