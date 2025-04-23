@@ -17,7 +17,7 @@ const About = () => {
                 <div className="about__data">
                    <Info/>
                    <p className="about__description">
-                   I am a Skilled, Enthusiastic and dedicated Junior MERN Full Stack Developer with a strong foundation in web development technologies. Eager to leverage skills in MongoDB, Express.js, React, and Node.js to contribute to dynamic projects and gain hands-on experience in building responsive and user-friendly web applications.
+                   I am a Skilled, Enthusiastic and dedicated MERN Full Stack Developer with a strong foundation in web development technologies. Eager to leverage skills in MongoDB, Express.js, React, and Node.js to contribute to dynamic projects and gain hands-on experience in building responsive and user-friendly web applications.
                    </p>
 
                    <a href="https://drive.google.com/file/d/1GtdU6twU9rfIAZndegq32vWgOj5F-kIU/view?usp=sharing" target="_blank" className="button button--flex">Download CV
