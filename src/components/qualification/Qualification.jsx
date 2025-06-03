@@ -71,7 +71,7 @@ const Qualification = () => {
                                 <span className="qualification__subtitle">NS Hr Sec School</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2018 - 2020
+                                    2014 - 2016
                                 </div>
                         </div>
                                 <div>
