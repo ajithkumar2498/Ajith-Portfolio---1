@@ -3,6 +3,7 @@ import image2 from "../../assets/E-Commerce.png"
 import image3 from "../../assets/Task Manager.jpg"
 import image4 from "../../assets/Basic CRUD APP.png"
 import image5 from "../../assets/Blog.jpeg"
+import image6 from "../../assets/Survey App.png"
 
 
 export  const Data = [
@@ -37,5 +38,13 @@ export  const Data = [
         description:"Blog app using MERN stack with Clerk for auth, and deployed on Netlify, Render, and MongoDB Atlas. 🚀 ",
         deploy:"https://newbloggify.netlify.app/",
         github:"https://github.com/ajithkumar2498/BlogApp-frontend.git"
+    },
+    {
+        id:5,
+        image:image6,
+        title: "Survey App",
+        description:"Survey App using MERN Stack with React, NodeJs, ExpressJS, JWT Auth and MongoDB ",
+        deploy:"https://ak-surveyapp.netlify.app/login",
+        github:"https://github.com/ajithkumar2498/Survey-App-Fe.git"
     },
 ]
