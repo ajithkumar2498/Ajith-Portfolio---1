@@ -56,7 +56,7 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title"> Bsc Ccmputer Science</h3>
+                            <h3 className="qualification__title"> Bsc Computer Science</h3>
                                 <span className="qualification__subtitle">Bishop Heber College</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
@@ -129,10 +129,10 @@ const Qualification = () => {
 
                         <div>
                             <h3 className="qualification__title"> Admin</h3>
-                                <span className="qualification__subtitle">Business Plus Associates - BNI</span>
+                                <span className="qualification__subtitle">Businessplus Associates - BNI</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2021 - 2024
+                                    2021 - 2026
                                 </div>
                         </div>
                     </div>
